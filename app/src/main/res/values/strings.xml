@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MyConversionApp</string>
+    <string name="todo">TODO</string>
+    <string name="enter_temperature_in_fahenreheit">Enter Temperature in Fahenreheit</string>
+    <string name="kelvin">Kelvin</string>
+    <string name="textview">TextView</string>
+    <string name="celsius">Celsius</string>
+    <string name="centineter">Centineter</string>
+    <string name="enter_lenght_in_inch">Enter lenght in inch</string>
+    <string name="kilometer">kilometer</string>
+    <string name="meter">Meter</string>
+    <string name="gram">Gram</string>
+    <string name="kilogram">Kilogram</string>
+    <string name="enter_weight_in_pound">Enter weight in pound</string>
+    <string name="weight">Weight</string>
+    <string name="lenght">Lenght</string>
+    <string name="temperature">Temperature</string>
+    <string name="home">HOME</string>
+    <string name="centimeter">CENTIMETER</string>
+    <string name="welcome_to_your_conversion_app">WELCOME TO YOUR CONVERSION APP.</string>
+    <string name="welcome_to_your_converter">WELCOME TO YOUR CONVERTER!</string>
+    <string name="ttttt">ttttt</string>
+    <string name="string_result" />
+    <string name="tone">Tone</string>
+    <string name="kilomE">KILOMETER</string>
+    <string name="result">Result:</string>
+    <string name="result2">Result:</string>
+    <string name="result1">Result:</string>
+</resources>

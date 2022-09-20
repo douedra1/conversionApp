@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="347dp"
+        android:layout_height="43dp"
+        android:background="#ECECEC"
+        android:text="@string/welcome_to_your_converter"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.077" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="87dp"
+        android:layout_height="25dp"
+        android:text="@string/lenght"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.283"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.839"
+        android:rotationY="15"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="87dp"
+        android:layout_height="25dp"
+        android:text="@string/temperature"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.731"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.828"
+        android:rotationY="13"/>
+
+    <ImageButton
+        android:id="@+id/lenghtid"
+        android:layout_width="130dp"
+        android:layout_height="136dp"
+        android:contentDescription="@string/todo"
+        android:rotationY="15"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.751"
+        app:srcCompat="@drawable/lenght" />
+
+    <ImageButton
+        android:id="@+id/temperatureid"
+        android:layout_width="113dp"
+        android:layout_height="134dp"
+        android:contentDescription="@string/todo"
+        android:rotationY="-15"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.771"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.733"
+        app:srcCompat="@drawable/temperature" />
+
+    <ImageButton
+        android:id="@+id/weightid"
+        android:layout_width="154dp"
+        android:layout_height="103dp"
+        android:contentDescription="@string/todo"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.414"
+        app:srcCompat="@drawable/weight" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="87dp"
+        android:layout_height="25dp"
+        android:text="@string/weight"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.532" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="182dp"
+        android:layout_height="37dp"
+        android:background="#CBEAD8"
+        android:text="CHOOSE A UNIT"
+        android:textSize="24sp"
+        android:theme="@style/Animation.Design.BottomSheetDialog"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
